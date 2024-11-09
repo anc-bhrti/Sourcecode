@@ -1,0 +1,92 @@
+Here are some commonly used Git commands, organized by use case:
+
+### Basic Git Commands
+
+1. **Initialize a Git Repository**
+   git init
+
+2. **Clone a Repository**
+   git clone <repository-url>
+
+3. **Check Repository Status**
+   git status
+
+### Staging and Committing
+
+4. **Add Changes to Staging Area**
+   git add <file>
+   or add all changes:
+   git add .
+
+5. **Commit Changes**
+   git commit -m "commit message"
+
+### Working with Branches
+
+6. **List Branches**
+   git branch
+
+7. **Create a New Branch**
+   git branch <branch-name>
+
+8. **Switch to a Branch**
+   git checkout <branch-name>
+
+9. **Create and Switch to a New Branch**
+   git checkout -b <branch-name>
+
+10. **Merge Branches**
+    git checkout <target-branch>
+    git merge <source-branch>
+
+11. **Delete a Branch**
+    git branch -d <branch-name>
+
+### Undoing Changes
+
+12. **Undo Last Commit (without deleting changes)**
+    git reset --soft HEAD~1
+
+13. **Undo Last Commit (with deleting changes)**
+    git reset --hard HEAD~1
+
+14. **Unstage a File**
+    git reset <file>
+
+### Working with Remotes
+
+15. **Add a Remote Repository**
+    git remote add origin <repository-url>
+
+16. **Push to Remote Repository**
+    git push origin <branch-name>
+
+17. **Pull from Remote Repository**
+    git pull origin <branch-name>
+
+18. **View Remote Connections**
+    git remote -v
+
+### Viewing Commit History
+
+19. **View Commit Log**
+    git log
+
+20. **View Simplified Log**
+    git log --oneline
+
+### Stashing Changes
+
+21. **Stash Uncommitted Changes**
+    git stash
+
+22. **Apply Stashed Changes**
+    git stash apply
+
+23. **List Stashes**
+    git stash list
+
+24. **Clear Stashes**
+    git stash clear
+
+These commands cover most of the basic workflows in Git. Let me know if you'd like explanations for any specific commands or more advanced Git commands!
